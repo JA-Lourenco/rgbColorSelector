@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>RGB Color Selector</title>
+</head>
+<body>
+
+    <header>
+        <h1><strong>RGB Color Selector</strong></h1>
+    </header>
+
+    <main>
+        <h3>Select your RGB values</h3>
+
+        <label>Red
+            <input class="red" type="number" min="0" max="255" placeholder="0 to 255">
+        </label>
+
+        <label>Green
+            <input class="green" type="number" min="0" max="255" placeholder="0 to 255">
+        </label>
+        
+        <label>Blue
+            <input class="blue" type="number" min="0" max="255" placeholder="0 to 255">
+        </label>
+        
+        <button id="rgb-button">Display RGB Color</button>
+            
+        <span id="color-rgb"></span>
+
+        <p><strong>CSS style to your project:</strong></p>
+        <span id="css"></span>
+
+        <hr>
+    </main>
+
+    <footer>
+        <p>Developed by: JA Lourenço</p>
+
+        <abbr title="Go to my LinkedIn"><a href="https://www.linkedin.com/in/ja-lourenco/" target="_blank" rel="author"><img src="assets/linkedin.svg" alt="LinkedIn profile"></a></abbr>
+
+        <abbr title="Go to my Github"><a href="https://github.com/JA-Lourenco" target="_blank" rel="author"><img src="assets/github.svg" alt="Github profile"></a></abbr>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
