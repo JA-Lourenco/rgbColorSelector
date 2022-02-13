@@ -2,7 +2,7 @@
 
 *Inputs to receive the RGB values from the user and then show the color*
 
-[Try yourself!](https://https://ja-lourenco.github.io/rgbColorSelector/)
+[Try yourself!](https://ja-lourenco.github.io/rgbColorSelector/)
 
 #### Techs
 
